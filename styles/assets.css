@@ -1,0 +1,28 @@
+.head_logo{
+    height: 80px;
+    margin: 24px 160px 24px 160px;
+}
+
+.main_section_logo{
+    display: flex;
+    background-color: white;
+    border-radius: 128px;
+}
+
+.primo_burger_img{
+    width: 100vw;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.rating_star{
+    height: 16px;
+}
+
+.min_worth_basket{
+    height: 16px;
+}
+
+.bike_icon{
+    height: 16px;
+}
