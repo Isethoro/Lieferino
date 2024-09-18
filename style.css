@@ -3,21 +3,22 @@
     background-color: #FF851B;
 }
 
-.main_section{
+.info_section{
     display: flex;
+    flex-direction: column;
     justify-content: start;
 }
 
-.main_section h1{
+.info_section h1{
     margin: 0 160px 0 160px;
 }
 
 .restaurant_brand{
     display: flex;
-    position: relative;
+    position: absolute;
     align-items: center;
     z-index: 1;
-    top: -10%;
+    top: 55%;
     left: auto;
 }
 
@@ -25,10 +26,20 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin: 8px 160px 0 160px;
+    margin: 48px 160px 0 160px;
 }
 .rating_info_bar p{
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.categories{
+    margin: 16px 160px 0 160px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    
 }
