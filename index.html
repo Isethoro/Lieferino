@@ -9,17 +9,19 @@
       href="assets/lieferino-favicon-color.png"
     />
     <title>Lieferino</title>
+    <script src="scripts/db.js"></script>
     <script src="script.js"></script>
+    <script src="scripts/templates.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styles/standard.css" />
     <link rel="stylesheet" href="styles/assets.css" />
   </head>
-  <body>
+  <body onload="renderDishes()"> 
     <section class="top_section">
       <div class="header">
         <img
           class="head_logo"
-          src="assets/lieferino-high-resolution-logo-transparent.png"
+          src="assets/img/lieferino-high-resolution-logo-transparent.png"
           alt=""
         />
       </div>
@@ -28,26 +30,26 @@
       <div>
         <img
           class="primo_burger_img"
-          src="assets/burgers-7221445_1280.jpg"
+          src="assets/img/burgers-7221445_1280.jpg"
           alt=""
         />
         <div class="restaurant_brand">
           <h1>Primo Burger & Pizza</h1>
           <img
             class="main_section_logo"
-            src="assets/lieferino-favicon-color.png"
+            src="assets/img/lieferino-favicon-color.png"
             alt=""
           />
         </div>
         <div class="rating_info_bar">
           <p>
-            <img class="rating_star" src="assets/star-35289_1280.png" alt="" />
+            <img class="rating_star" src="assets/img/star-35289_1280.png" alt="" />
             3.9 (200+)
           </p>
           <p>
             <img
               class="min_worth_basket"
-              src="assets/icon-1641920_1280.png"
+              src="assets/img/icon-1641920_1280.png"
               alt=""
             />
             Min. 25,00€
@@ -55,7 +57,7 @@
           <p>
             <img
               class="bike_icon"
-              src="assets/delivery-7491357_1280.png"
+              src="assets/img/delivery-7491357_1280.png"
               alt=""
             />
             4,00€
@@ -73,7 +75,14 @@
       </div>
     </section>
     <section id="menu_section" class="menu_section">
-      
+      <div id="dishes">
+        <div id="burgers">
+
+        </div>
+        <div id="pizzas">
+
+        </div>
+      </div>
     </section>
   </body>
 </html>

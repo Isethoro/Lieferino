@@ -1,9 +1,10 @@
-let myDishes = [ 
-    "burger": {
+let myDishes = { 
+    "burger": [
+        {
         "name": "Hamburger",
-        "price": 1.50,
-        "description": "Standard Hamburger mit einem Hackfleischpatty zwischen zwei Scheiben Burgerbuns.",
-        "amount":0,
+            "price": 1.50,
+            "description": "Standard Hamburger mit einem Hackfleischpatty zwischen zwei Scheiben Burgerbuns.",
+            "amount":0,
         },
         {
             "name": "Cheeseburger",
@@ -17,7 +18,9 @@ let myDishes = [
             "description": "Großer Hamburger mit zwei Scheiben Hackfleischpattys mit frischem Salat, Tomate, jungem Gouda und unserer hausgemachten Spezialsoße.",
             "amount": 0,
         },
-    "pizza": {
+    ],
+    "pizza": [
+        {
             "name": "Margerita",
             "price": 7.00,
             "description": "Frisch gebackener Pizzateig mit Tomatensoße und Emmentalerkäse",
@@ -35,7 +38,9 @@ let myDishes = [
             "description": "Wie eine Margarita, mit italienischer Salami",
             "amount":0,
         },
-    "beilagen":{
+    ],
+    "beilagen": [
+        {
             "name": "Panierte Mozzarella Sticks (6 Stück)",
             "price": 7.50,
             "description": "Geschmolzener Mozzarella ummantelt  mit einer knusprig gebackenen Schicht teig und dazu süß-saure Soße.",
@@ -52,5 +57,6 @@ let myDishes = [
             "price": 3.50,
             "description": "Kartoffelstreifen mit ketchup.",
             "amount":0,
-        },    
-]
+        },
+    ]    
+};
