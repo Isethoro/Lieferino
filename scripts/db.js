@@ -2,19 +2,19 @@ let myDishes = {
     "burger": [
         {
         "name": "Hamburger",
-            "price": 1.50,
+            "price": 6.50,
             "description": "Standard Hamburger mit einem Hackfleischpatty zwischen zwei Scheiben Burgerbuns.",
             "amount":0,
         },
         {
             "name": "Cheeseburger",
-            "price": 1.80,
+            "price": 7.80,
             "description": "Standard Hamburger mit einer Scheibe jungem Gouda",
             "amount":0,
         },
         {
             "name": "Royalburger",
-            "price": 2.60,
+            "price": 10.60,
             "description": "Großer Hamburger mit zwei Scheiben Hackfleischpattys mit frischem Salat, Tomate, jungem Gouda und unserer hausgemachten Spezialsoße.",
             "amount": 0,
         },
@@ -22,19 +22,19 @@ let myDishes = {
     "pizza": [
         {
             "name": "Margerita",
-            "price": 7.00,
+            "price": 8.30,
             "description": "Frisch gebackener Pizzateig mit Tomatensoße und Emmentalerkäse",
             "amount":0,
         },
         {
             "name": "Prosciutto",
-            "price": 9.00,
+            "price": 11.00,
             "description": "Wie eine Margerita, mit herrlichem Vorderschinken",
             "amount":0,
         },
         {
             "name": "Salami",
-            "price": 9.00,
+            "price": 11.50,
             "description": "Wie eine Margarita, mit italienischer Salami",
             "amount":0,
         },

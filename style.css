@@ -46,10 +46,48 @@
 
 .categories{
     margin: 16px 160px 0 160px;
+    padding: 8px 0 8px 0;
     font-size: large;
     font-weight: bold;
     display: flex;
     justify-content: start;
     gap: 24px;
-    
+    background-color: rgba(0, 0, 0, 0.256);
+}
+
+.dishes{
+    margin: 64px 160px 0 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.dish_Cards{
+    margin: 8px 0 8px 0;
+    padding: 0 4px 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.296);
+}
+
+.dish_Cards:hover{
+    border-color: #FF851B;
+    cursor: pointer;
+}
+
+.burgers{
+    margin: 8px 0 8px 0;
+}
+
+.pizzas{
+    margin: 8px 0 8px 0;
+}
+
+.beilagen{
+    margin: 8px 0 8px 0;
 }
